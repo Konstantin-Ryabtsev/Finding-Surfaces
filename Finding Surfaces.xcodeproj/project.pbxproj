@@ -13,6 +13,8 @@
 		0A120A092790BD1500DEC87D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A120A072790BD1500DEC87D /* Main.storyboard */; };
 		0A120A0B2790BD1D00DEC87D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A120A0A2790BD1D00DEC87D /* Assets.xcassets */; };
 		0A120A0E2790BD1D00DEC87D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A120A0C2790BD1D00DEC87D /* LaunchScreen.storyboard */; };
+		0A120A162790E6EC00DEC87D /* Screenshot01.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 0A120A142790E6EB00DEC87D /* Screenshot01.PNG */; };
+		0A120A172790E6EC00DEC87D /* Screenshot02.PNG in Resources */ = {isa = PBXBuildFile; fileRef = 0A120A152790E6EC00DEC87D /* Screenshot02.PNG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		0A120A082790BD1500DEC87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0A120A0A2790BD1D00DEC87D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0A120A0D2790BD1D00DEC87D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0A120A142790E6EB00DEC87D /* Screenshot01.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot01.PNG; sourceTree = "<group>"; };
+		0A120A152790E6EC00DEC87D /* Screenshot02.PNG */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot02.PNG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,7 @@
 		0A120A002790BD1500DEC87D /* Finding Surfaces */ = {
 			isa = PBXGroup;
 			children = (
+				0A120A182790E6F300DEC87D /* Screenshots */,
 				0A120A012790BD1500DEC87D /* AppDelegate.swift */,
 				0A120A032790BD1500DEC87D /* art.scnassets */,
 				0A120A052790BD1500DEC87D /* ViewController.swift */,
@@ -63,6 +68,15 @@
 				0A120A0C2790BD1D00DEC87D /* LaunchScreen.storyboard */,
 			);
 			path = "Finding Surfaces";
+			sourceTree = "<group>";
+		};
+		0A120A182790E6F300DEC87D /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				0A120A142790E6EB00DEC87D /* Screenshot01.PNG */,
+				0A120A152790E6EC00DEC87D /* Screenshot02.PNG */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,6 +137,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0A120A162790E6EC00DEC87D /* Screenshot01.PNG in Resources */,
+				0A120A172790E6EC00DEC87D /* Screenshot02.PNG in Resources */,
 				0A120A042790BD1500DEC87D /* art.scnassets in Resources */,
 				0A120A0E2790BD1D00DEC87D /* LaunchScreen.storyboard in Resources */,
 				0A120A0B2790BD1D00DEC87D /* Assets.xcassets in Resources */,
